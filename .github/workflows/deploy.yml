@@ -3,8 +3,8 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # or "master" if that's your default branch
-  workflow_dispatch:  # allows manual trigger
+      - master  # or "master" if that's your default branch
+  # workflow_dispatch:  # allows manual trigger
 
 jobs:
   deploy:
